@@ -34,6 +34,12 @@ ARCH_ARM_HAVE_TLS_REGISTER := true
 TARGET_GCC_VERSION := 4.7
 TARGET_USE_O3 := true
 
+# Define kernel config for inline building
+TARGET_KERNEL_CONFIG := cyanogenmod_manta_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/manta
+
+TARGET_PREBUILT_KERNEL := device/samsung/manta/kernel
+
 #Bluetooth
 BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_BCM := true
