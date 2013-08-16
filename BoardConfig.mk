@@ -97,6 +97,9 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/manta
 
 BOARD_HAS_NO_SELECT_BUTTON := true
 
+# Default card id for USB audio
+BOARD_USB_AUDIO_CARD_ID := 2
+
 # Support WebGL in WebKit
 ENABLE_WEBGL := true
 
